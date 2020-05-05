@@ -1,7 +1,7 @@
+import static org.testng.Assert.assertEquals;
+
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-import static org.testng.Assert.assertEquals;
 
 public class ArraysTest {
 
@@ -19,11 +19,15 @@ public class ArraysTest {
                         new String[]{"JAVA", "SQL"}
                 },
                 {
-                        new String[]{"here", "is", "some", "text", ".", "text"},
-                        new String[]{"some", "text", "above", "."},
-                        new String[]{"some", "text", "."}
+                        new String[]{"Dynamo", "Arsenal", "MC", "MU", "Juventus", "Barcelona"},
+                        new String[]{"Burnley", "Barcelona", "Inter", "Atalanta", "Sevilla", "Real", "Arsenal"},
+                        new String[]{"Barcelona", "Arsenal"}
+                },
+                {
+                        new String[]{"Kate", "Helga", "Carmen", "Nikita", "Roman", "Timur"},
+                        new String[]{"Timur", "Svetlana", "Boris", "Roman", "Oleg", "Nataly", "Vladimir"},
+                        new String[]{"Timur", "Roman"}
                 }
-                // TODO add 2 more test data here
         };
     }
 
